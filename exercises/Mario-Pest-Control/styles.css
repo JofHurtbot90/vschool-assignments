@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(60, 28, 88, 0.95);
+}
+
+
+#Goombas {
+  height: 125px;
+}
+
+#Bob-omb {
+  height: 125px;
+}
+
+#Cheep-cheep {
+  height: 125px;
+}
+
+#button {
+  color: lightseagreen;
+    background-color: #3d548b;
+    font-family: arial;
+}
+#multiply-result {
+  border: solid slategrey 2px;
+  height:15px;
+  width: 30px;
+  font-family: courier;
+}
+
+h1 {
+  font-family: Fascinate Inline, cursive;
+  color: #6abdbf;
+  font-size: 65px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Fascinate Inline, cursive;
+  color: #7a94e0;
+}
+
+h4 {
+  color: #a5ff00;
+  font-family: Courier;
+
+ }
+
+h5 {
+color: #32abe8;
+font-family: Fascinate Inline; cursive;
+
+}

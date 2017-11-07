@@ -1,0 +1,31 @@
+{
+  "appetizers": [
+
+  {
+
+    "item": "Burger Sliders"{
+    "ingredients": ["bun, beef, ketchup, mustard, onion, jalapeño"],
+    "description": "three sliders of goodness and flavor"
+
+    } {
+
+      "item": "Nachos",
+      "ingredients": ["chips, salsa, cheese, pico de gallo, cilantro"],
+      "description": "flavor and spice ALL IN ONE!"
+
+      } {
+
+        "item": "Buffalo Wings",
+        "ingredients": ["chicken strips, Buffalo sauce"],
+        "description": "spice of fun",
+
+        }
+    } ],
+
+
+  "cold sandwiches":[
+    "Tuna", "BLT", "Italian"],
+  "hot sandwiches": ["Buffalo Chicken", "Meatball", "Philly Cheesesteak", "Barbacoa"],
+  "desserts": ["Churros", "Chocolate Chip Cookies", "Cake"],
+  "drinks": ["Beer", "Soda", "Water"]
+}

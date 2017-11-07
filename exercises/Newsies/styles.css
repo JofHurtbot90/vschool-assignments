@@ -1,0 +1,21 @@
+body {
+  color: slategrey;
+
+}
+
+h1 {
+  font-family: Courier New;
+  text-align: center;
+
+
+}
+
+h2 {
+  font-family: Verdana;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  font-family: Palatino;
+  display: inline-block;
+ }

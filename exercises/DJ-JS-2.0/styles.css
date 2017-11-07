@@ -1,0 +1,144 @@
+#box1 {
+  background-color: slategrey;
+  border: solid black 5px;
+  border-radius: 2%;
+  box-shadow: 10px 10px 5px #999;
+  height: 75px;
+  width: 75px;
+
+  position: relative;
+  opacity:45%;
+  transition-property: all;
+  transition-duration: .5s ;
+  transition-timing-function: ease-in-out;
+  transition-delay: .5s;
+
+}
+#box1:hover {
+  background-color: navy;
+  border: dotted black 15px;
+  border-radius: 0%;
+  box-shadow: 0px 0px 0px;
+
+}
+
+#box2 {
+background-color: steelblue;
+border: solid lightblue 5px;
+border-radius: 2%;
+box-shadow: 10px 10px 5px #999;
+height: 75px;
+width:75px;
+
+position: relative;
+opacity:45%;
+transition-property: all;
+transition-duration: .5s ;
+transition-timing-function: ease-in-out;
+transition-delay: .5s;
+}
+#box2:hover {
+background-color: chocolate;
+border: dashed purple 5px;
+border-radius: 0%;
+
+}
+
+#box3 {
+  background-color: teal;
+  border: solid purple 2px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #999;
+  height: 75px;
+  width: 75px;
+
+  position: relative;
+  opacity: 45%;
+  transition-property: all;
+  transition-duration: .5s ;
+  transition-timing-function:linear;
+  transition-delay: .5s;
+
+}
+#box3:hover {
+  background-color: yellowgreen;
+  border: dotted steelblue 5px;
+  border-radius: 20%;
+
+
+}
+#box4 {
+  background-color: purple;
+  border: solid yellow 2px;
+  border-radius: 2%;
+  box-shadow: 10px 10px 5px #999;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  opacity: 45%;
+  transition-property: all;
+  transition-duration: .9s;
+  transition-timing-function:ease-in-out;
+  transition-delay: .9s;
+
+
+}
+#box4:hover {
+  background-color: lightyellow;
+  border: dashed tomato 5px;
+  border-radius: 10%;
+  height: 45%;
+  width: 35%
+
+}
+
+#box5 {
+  background-color: maroon;
+  border: solid red 2px;
+  border-radius: 25%;
+  box-shadow: 5px 10px 5px #999;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  margin-top: 80px;
+  opacity: 45%;
+  transition-property: all;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
+  transition-delay: .7s;
+}
+
+#box5:hover {
+  background-color: cornsilk;
+  border: dotted green 6px;
+  border-radius: 0%;
+  height: 20%;
+  width: 60%;
+
+
+}
+
+#box6 {
+  background-color: navy;
+  border: dotted lightgrey 2px;
+  border-radius: 15%;
+  box-shadow: 10px 10px 5px #999;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  margin-top: 160px;
+  opacity: 35%;
+  transition-property: all;
+  transition-duration: .7s;
+  transition-timing-function: ease-in-out;
+  transition-delay: .7s;
+}
+
+#box6:hover {
+  background-color: mediumpurple;
+  border: solid steelblue 5px;
+  border-radius: 0%;
+  height: 55%;
+  width: 25%;
+
+}

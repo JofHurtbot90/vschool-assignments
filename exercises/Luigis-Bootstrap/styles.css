@@ -1,0 +1,23 @@
+.container {
+  background-color: yellow;
+  height: 600px;
+  width: 600px;
+  padding: 0%;
+
+
+}
+
+.col-xs-12 {
+  background-color: red;
+  height: 225px;
+
+}
+.col-md-12 {
+  background-color: white;
+
+}
+
+
+
+
+}
