@@ -9,10 +9,10 @@ function Rectangle(props) {
     display: "inline-block";
     verticalAlign: "top";
   }
-
   return(
     <div style={styles}>
       {props.description}
     </div>
   )
 }
+export default Rectangle;
