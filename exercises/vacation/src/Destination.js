@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
 class Destination extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     let vacationSpots = [
 
       {
@@ -41,8 +41,12 @@ class Destination extends Component {
     ];
 
 };
-
+render() {
+  return(
+    <h2>{this.props.vacationSpots}</h2>
+    )
   }
+}
 
 
 export default Destination;

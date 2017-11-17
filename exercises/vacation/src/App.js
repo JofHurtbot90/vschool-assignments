@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Destination from './Destination.js';
+import Boxes from './Boxes.js';
 
 import './App.css';
 
@@ -57,7 +58,9 @@ class App extends Component {
   render() {
     return(
       <div>
+        
         {this.generateVacationSpotsArray()}
+
       </div>
     );
   };
