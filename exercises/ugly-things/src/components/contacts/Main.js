@@ -1,5 +1,4 @@
 import React from 'react';
-
 import AddContactForm from './AddContactForm';
 import ContactsList from './ContactsList';
 
