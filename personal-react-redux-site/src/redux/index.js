@@ -1,6 +1,5 @@
 import{combineReducers} from 'redux';
-import actions from './actions';
+import timezones from './actions';
 export default combineReducers({
-  actions
-
+  timezones
 })
