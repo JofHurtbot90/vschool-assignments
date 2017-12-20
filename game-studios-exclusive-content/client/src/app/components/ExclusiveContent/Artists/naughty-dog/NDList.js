@@ -1,5 +1,5 @@
 import React from 'react';
-import {}
+import {Grid, Row, Col, Thumbnail, Button} from 'react-bootstrap';
 
 function NDList(){
   const thumbnailInstance = (

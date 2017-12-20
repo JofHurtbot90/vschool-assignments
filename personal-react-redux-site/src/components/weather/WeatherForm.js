@@ -6,7 +6,7 @@ class WeatherForm extends Component{
   constructor(){
     super();
     this.state = {
-      timezone: '',
+      timezone: ''
 
     };
     this.handleChange = this.handleChange.bind(this);

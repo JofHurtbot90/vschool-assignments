@@ -33,6 +33,7 @@ render(){
     <form onSubmit={this.handleSubmit}>
 
       <select name="studios">
+        <option value="select">Select</option>
         <option value="naughty-dog">Naughty Dog</option>
         <option value="santa-monica-studio">Santa Monica Studio</option>
       </select>
