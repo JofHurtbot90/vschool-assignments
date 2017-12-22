@@ -7,7 +7,7 @@ class ExclusiveContentForm extends Component{
   constructor(){
     super();
     this.state = {
-      artists: ''
+      artist: ''
     }
   }
 
@@ -27,16 +27,16 @@ class ExclusiveContentForm extends Component{
   render(){
     return(
         <div>
-          
+
       <form onSubmit={this.handleSubmit}>
 
-        <select name="artists">
+        <select name="artist" onChange={this.handleChange}>
           <option value="select">Select</option>
-          <option value={this.state.artists}>Aaron Limonick</option>
-          <option value={this.state.artists}>Eytan Zana</option>
-          <option value={this.state.artists}>John Sweeney</option>
-          <option value={this.state.artists}>Nick Gindraux</option>
-          <option value={this.state.artists}>Maciej Kuciara</option>
+        <option value='aaron limonick'>Aaron Limonick</option>
+      <option value='eytan zana'>Eytan Zana</option>
+    <option value='john sweeney'>John Sweeney</option>
+  <option value='nick gindraux'>Nick Gindraux</option>
+<option value='maciej kuciara'>Maciej Kuciara</option>
         </select>
 
 
@@ -46,7 +46,7 @@ class ExclusiveContentForm extends Component{
       </form>
 
 
-      <NDList/>
+      <NDList artist={this.state.artist} />
 
     </div>
 

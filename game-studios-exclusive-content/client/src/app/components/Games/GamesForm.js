@@ -1,8 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-
-class GamesForm extends Component{
-
+function GamesForm(props){
+  const styles = {
+    fontFamily: 'Scada: 700',
+    fontSize: '55px'
+  }
+  return(
+    <h1>COMING SOON!!!!</h1>
+  )
 }
-
 export default GamesForm;
