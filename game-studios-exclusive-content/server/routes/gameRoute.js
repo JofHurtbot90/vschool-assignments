@@ -5,9 +5,8 @@ const Game = require('../models/games');
 gameRoute.route('/')
   .get((req, res)=>{
     Game.find((err, games)=>{
-    if (err) return
-    res.status(500).send(err);
-    res.send(games);
+    if (err) return res.status(500).send(err);
+    return res.send(games);
   });
 })
 

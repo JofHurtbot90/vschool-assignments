@@ -2,13 +2,22 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 function NavBar(props){
-  return(
+  const styles = {
+    textAlign: 'center',
+    fontSize: '35px',
+    fontFamily: 'Cuprum: 400'
 
-      <nav className='navbar'>
-        <Link to='/'>Studios</Link>
-        <Link to='/exclusive-content'>Exclusive Content</Link>
-        <Link to='/games'>Games</Link>
-      </nav>
+  }
+  return(
+    <div>
+      <header style={styles}>The Goods</header>
+
+        <nav className='navbar' style={styles}>
+          <Link to='/'>Exclusive Content</Link>
+          <Link to='/games'>Games</Link>
+        </nav>
+
+    </div>
 
   )
 }

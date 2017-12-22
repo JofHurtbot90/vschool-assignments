@@ -8,9 +8,10 @@ const gameRoute = require('./routes/gameRoute')
 
 app.use(bodyParser.json());
 app.use(morgan('dev'));
+app.use('/games',gameRoute);
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/game-studios-exclusive-content', {useMongoClient: true}
+mongoose.connect('mongodb://localhost/game-content', {useMongoClient: true},
 err =>{
   if(err) throw err;
   console.log('Connected to the database');

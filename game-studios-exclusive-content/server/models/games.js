@@ -6,6 +6,7 @@ const gameSchema = new Schema({
   slug: String,
   url: String,
   games: {
+    url: String,
     title: String,
     year: Number,
     console: String,

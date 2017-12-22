@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import NDList from './Artists/naughty-dog/NDList';
-import SMSList from './Artists/santa-monica-studio/SMSList';
+
+
 
 class ExclusiveContentForm extends Component{
   constructor(){
     super();
     this.state = {
-      artists: '',
-      studio: '',
-      game: ''
+      artists: ''
     }
   }
 
@@ -21,34 +20,37 @@ class ExclusiveContentForm extends Component{
 
   handleSubmit = (e) =>{
     e.preventDefault();
+
+
   }
 
   render(){
     return(
+        <div>
+          
       <form onSubmit={this.handleSubmit}>
 
-        <input
-          type="text"
-          value={this.state.artists}
-          onChange={this.handleChange}
-          name='artists'
-          placeholder='Artists'/>
+        <select name="artists">
+          <option value="select">Select</option>
+          <option value={this.state.artists}>Aaron Limonick</option>
+          <option value={this.state.artists}>Eytan Zana</option>
+          <option value={this.state.artists}>John Sweeney</option>
+          <option value={this.state.artists}>Nick Gindraux</option>
+          <option value={this.state.artists}>Maciej Kuciara</option>
+        </select>
 
-        <input
-          type="text"
-          value={this.state.studio}
-          onChange={this.handleChange}
-          name='studio'
-          placeholder='Studio'/>
 
-        <input
-          type="text"
-          value={this.state.game}
-          onChange={this.handleChange}
-          name='game'
-          placeholder='Game'/>
+
+          <input type="submit" value='Submit'/>
 
       </form>
+
+
+      <NDList/>
+
+    </div>
+
+
 
     )
   }
