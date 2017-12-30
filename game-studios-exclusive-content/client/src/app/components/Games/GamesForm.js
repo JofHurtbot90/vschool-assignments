@@ -6,7 +6,10 @@ function GamesForm(props){
     fontSize: '55px'
   }
   return(
-    <h1>COMING SOON!!!!</h1>
+
+        <h1 style={styles}>COMING SOON!!!!</h1>
+
+
   )
 }
 export default GamesForm;

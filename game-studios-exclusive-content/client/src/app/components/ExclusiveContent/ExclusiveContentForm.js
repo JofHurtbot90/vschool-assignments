@@ -41,7 +41,7 @@ class ExclusiveContentForm extends Component{
 
 
 
-          <input type="submit" value='Submit'/>
+
 
       </form>
 
@@ -55,6 +55,5 @@ class ExclusiveContentForm extends Component{
     )
   }
 }
-
 
 export default ExclusiveContentForm;

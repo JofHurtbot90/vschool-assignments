@@ -1,3 +1,5 @@
+//---------DANTE'S INFERNO------------//
+
 import React from 'react';
 import {Grid, Row, Col, Thumbnail, Button} from 'react-bootstrap';
 import image1 from '../../exclusive-content-images/content-art/naughty-dog/aaron-limonick/The_Last_of_Us_Concept_Art_Bills_Town_Church_AL-01.jpg';
@@ -267,5 +269,6 @@ function NDList(props){
     </div>
   )
 }
+//---------DANTE'S INFERNO-------------//
 
 export default NDList;
